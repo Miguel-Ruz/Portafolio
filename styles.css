@@ -1,4 +1,18 @@
 :root {
+/* Text-size styles */
+/* base size: boton (20px) */
+--boton: 2rem;
+--h1: 9rem;
+--h2: 5.6rem;
+--h3: 2.8rem;
+--body: 1.9rem;
+--caption: 1.6rem;
+--h1-sm: 5.1rem;
+--h2-sm: 2.7rem;
+--botón-sm: 1.6rem;
+--h3-sm: 2.8rem;
+--body2: 1.6rem;
+
 /* Color styles */
 --titulo: rgba(61, 72, 82, 1);
 --body: rgba(135, 149, 161, 1);
@@ -18,3 +32,50 @@
 --m-o-c-k2:  0px 8.78758430480957px 54.922401428222656px rgba(0, 0, 0, 0.05);
 --morado:  0px 20px 27px rgba(112, 77, 255, 0.4);
 }
+
+/*Se resetean los estilos base*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Kanit', sans-serif;
+    background-color: black;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    width: 100vw;
+    padding: 16px 142px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-size: var(--boton);
+    color: var(--body);
+}
+
+.header-button {
+    background-color: transparent;
+    font-size: var(--boton);
+    padding: 16px 32px;
+    border: 1.5px solid var(--blanco, #ffffff);
+    border-radius: 8px;
+    color: var(--blanco);
+    stroke: var(--blanco);
+
+};
