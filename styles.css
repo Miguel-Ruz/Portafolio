@@ -1,0 +1,20 @@
+:root {
+/* Color styles */
+--titulo: rgba(61, 72, 82, 1);
+--body: rgba(135, 149, 161, 1);
+--blanco: rgba(250, 250, 250, 1);
+--principal---light: rgba(199, 223, 241, 1);
+--body-light: rgba(199, 211, 222, 1);
+--input-bg: rgba(241, 241, 241, 1);
+--stroke-dash: rgba(223, 229, 231, 0.5);
+--lila: rgba(141, 156, 244, 1);
+--orange: rgba(229, 67, 53, 1);
+
+/* Effect styles */
+--shadow:  0px 3px 30px rgba(0, 0, 0, 0.12);
+--blue:  0px 3px 20px rgba(0, 41, 255, 0.1);
+--shadow-card:  0px 3px 30px rgba(0, 0, 0, 0.08);
+--mock:  0px 29.658096313476562px 59.316192626953125px rgba(0, 0, 0, 0.25);
+--m-o-c-k2:  0px 8.78758430480957px 54.922401428222656px rgba(0, 0, 0, 0.05);
+--morado:  0px 20px 27px rgba(112, 77, 255, 0.4);
+}
