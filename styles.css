@@ -23,6 +23,7 @@
 --stroke-dash: rgba(223, 229, 231, 0.5);
 --lila: rgba(141, 156, 244, 1);
 --orange: rgba(229, 67, 53, 1);
+--principal: linear-gradient(180deg, #5025FF 0%, #4B1FFF 100%);
 
 /* Effect styles */
 --shadow:  0px 3px 30px rgba(0, 0, 0, 0.12);
@@ -127,7 +128,7 @@ span, .hero-text--especial {
     color: var(--blanco);
     font-weight: 200;
     margin-top: 16px;
-    margin-bottom: 24px;
+    margin-bottom: 64px;
 }
 
 .hero-button {
@@ -144,4 +145,41 @@ span, .hero-text--especial {
 .hero-button:hover {
     background-image: linear-gradient(180deg, #5025FF 0%, #9A84FD 100%);
     box-shadow: 0px 20px 27px -0.5px rgba(112, 77, 255, 0.40);
+}
+
+.projects-section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 64px 142px;
+    background-image: url(./Assets/Poryectos-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-section, h2 {
+    font-size: var(--h2);
+    color: var(--titulo);
+}
+
+.projects-p {
+    font-size: var(20px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 3.42px;
+    background: linear-gradient(180deg, #5025FF 0%, #4B1FFF 100%);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+}
+
+.projects-p2 {
+    font-size: var(--h3);
+    color: var(--titulo);
 }
