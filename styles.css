@@ -56,8 +56,17 @@ header {
     padding: 16px 142px;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    background: linear-gradient(180deg, #000 24.48%, rgba(0, 0, 0, 0.00) 100%);
+    background: linear-gradient(180deg, #000 24.48%, rgba(0, 0, 0, 0.386) 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    transition: opacity 3s ease-in-out; 
+}
+
+.ocultar {
+    opacity: 0;
 }
 
 nav {
