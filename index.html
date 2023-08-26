@@ -74,14 +74,14 @@
         <div class="card-text">
             <button class="card-tag">UX/UI</button>
             <H3>SkyComeet</H3>
-            <p>Amantes del espacio, mira la foto que se tomó en el espacio el día de tu cumpleaños</p>
+            <p>Mira la foto que se tomó en el espacio el día de tu cumpleaños</p>
         </div>
     </div>
 </div>
 <div class="testimonial-section">
-    <div class="testimonial-text">
+    <div class="section-title">
         <p class="projects-p">TESTIMONIOS</p>
-        <h2 class="testimonial-title">Conoce lo que mis colegas dicen de mi</h2>
+        <h2 class="title-element">Conoce lo que mis colegas dicen de mi</h2>
     </div>
     <div class="testimonial-cards">
         <div class="testimonial-card">
@@ -102,5 +102,37 @@
         </div>
     </div>
 </div>
+<div class="contact-section">
+    <div class="section-title">
+        <p class="projects-p">CONTACTO</p>
+        <h2 class="title-element">Si tienes dudas, hablemos</h2>
+    </div>
+    <div class="form-container">
+        <form action="procesar.php" method="POST">
+            <fieldset>
+              <label for="nombre">Tu nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+              
+              <label for="email">Tu E-mail</label>
+              <input type="email" id="email" name="email" placeholder="Ejemplo@hotmail.com">
+              
+              <label for="mensaje">Tu mensaje:</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Hey..." rows="4" cols="50"></textarea>
+            </fieldset>
+            
+            <input type="submit" value="Enviar">
+          </form>
+          
+    </div>
+</div>
+<footer>
+    <img src="/Assets/header-logo.svg" alt="es el logo">
+    <article class="article-footer">Todos los derechos reservados</article>
+    <div class="social-contaniner">
+        <img src="/Assets/Instagram.png" alt="es un icono de red social">
+        <img src="/Assets/LinkedIn.png" alt="es un icono de red social">
+        <img src="/Assets/Behance.png" alt="es un icono de red social">
+    </div>
+</footer>
 </body>
 </html>

@@ -6,7 +6,7 @@
 --h2: 5.6rem;
 --h3: 2.8rem;
 --body: 1.9rem;
---caption: 1.6rem;
+--caption: 1.5rem;
 --h1-sm: 5.1rem;
 --h2-sm: 2.7rem;
 --botón-sm: 1.6rem;
@@ -20,7 +20,7 @@
 --principal---light: rgba(199, 223, 241, 1);
 --body-light: rgba(199, 211, 222, 1);
 --input-bg: rgba(241, 241, 241, 1);
---stroke-dash: rgba(223, 229, 231, 0.5);
+--stroke-dash: rgba(223, 229, 231, 0.118);
 --lila: rgba(141, 156, 244, 1);
 --orange: rgba(229, 67, 53, 1);
 --principal: linear-gradient(180deg, #5025FF 0%, #4B1FFF 100%);
@@ -264,6 +264,7 @@ span, .hero-text--especial {
 
 .testimonial-section {
     width: 100vw;
+    height: 100vh;
     padding: 128px 142px;
     display: flex;
     flex-direction: column;
@@ -275,7 +276,7 @@ span, .hero-text--especial {
     background-repeat: no-repeat;
 }
 
-.testimonial-text {
+.section-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,7 +284,7 @@ span, .hero-text--especial {
     text-align: center;
 }
 
-.testimonial-title {
+.title-element {
     color: var(--blanco);
     margin-top: 0px;
 }
@@ -320,3 +321,100 @@ span, .hero-text--especial {
 .card-copy {
     margin: 0px;
 }
+
+.contact-section {
+    display: flex;
+    width: 100%;
+    padding: 128px 142px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el formulario */
+
+.form-container {
+    display: flex;
+    width: 447px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15.247px;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0.15) 0%, #111 100%);
+}
+form {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para el fieldset */
+  fieldset {
+    border: none;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+  
+  /* Estilos para las etiquetas y los campos de entrada */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--blanco);
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 20px 16px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: var(--body2);
+    font-family: 'Kanit', sans-serif;
+    border: 1px solid var(--stroke-dash, rgba(223, 229, 231, 0.50));
+    background: var(--rellenos, #221c1c);
+  }
+
+  input:focus {
+    border-color: var(--principal);
+  }
+  
+  
+  /* Estilos para el botón de enviar y el botón de reinicio */
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: var(--boton);
+    font-weight: 500;
+    color: var(--blanco);
+    background-image: linear-gradient(180deg, #5025FF 0%, #4B1FFF 100%);
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  /* Cambiar el color del botón cuando se pasa el ratón por encima */
+  input[type="submit"]:hover {
+    background-image: linear-gradient(180deg, #5025FF 0%, #9A84FD 100%);
+    box-shadow: 0px 20px 27px -0.5px rgba(112, 77, 255, 0.40);
+  }
+  
+  /*FOOTER*/
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 142px;
+    color: var(--blanco);
+    border-top: solid 1px var(--stroke-dash);
+  }
+
+.article-footer {
+    font-size: 16px;
+  }
