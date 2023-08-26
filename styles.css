@@ -201,8 +201,9 @@ span, .hero-text--especial {
 .projects-cards {
     width: 100vw;
     padding: 128px 142px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas con igual ancho */
+    grid-template-rows: repeat(2, auto); /* Dos filas con alto automático */
     gap: 24px;
     background-image: url(./Assets/CARDS\ BG.png);
     background-size: cover;
@@ -211,7 +212,7 @@ span, .hero-text--especial {
 }
 
 .card {
-    width: 49%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
