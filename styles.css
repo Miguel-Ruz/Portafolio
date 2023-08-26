@@ -240,6 +240,7 @@ span, .hero-text--especial {
     padding: 5px 16px;
     justify-content: center;
     align-items: center;
+    height: fit-content;
     border-radius: 50px;
     background: rgba(255, 255, 255, 0.30);
     font-size: var(--boton);
@@ -290,6 +291,7 @@ span, .hero-text--especial {
 .testimonial-cards {
     width: 100%;
     display: flex;
+    gap: 24px;
 }
 
 .testimonial-card {
@@ -297,12 +299,19 @@ span, .hero-text--especial {
     display: flex;
     flex-direction: column;
     padding: 24px;
+    margin-top: 48px;
     gap: 0px;
     border-radius: 15.247px;
     background: linear-gradient(180deg, rgba(17, 17, 17, 0.15) 0%, #111 100%);
     height: fit-content;
 }
 
+.icon-zone{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
 .testimonial-autor {
     margin-top: 24px;
     margin-bottom: 0px;
