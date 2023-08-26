@@ -376,6 +376,7 @@ form {
     font-family: 'Kanit', sans-serif;
     border: 1px solid var(--stroke-dash, rgba(223, 229, 231, 0.50));
     background: var(--rellenos, #221c1c);
+    color: var(--blanco);
   }
 
   input:focus {
@@ -395,7 +396,6 @@ form {
     padding: 16px 32px;
     border-radius: 8px;
     border: none;
-    color: var(--blanco);
   }
   
   /* Cambiar el color del botón cuando se pasa el ratón por encima */
