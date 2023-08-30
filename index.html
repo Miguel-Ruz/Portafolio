@@ -12,26 +12,28 @@
 <body>
     <header>
         <nav>
-            <img class ="header-logo"src="./Assets/header-logo.svg" alt="">
-            <a class ="nav-item" href="">Inicio</a>
-            <a class ="nav-item" href="">Proyectos</a>
-            <a class ="nav-item" href="">Contacto</a>
+            <a href="#start">
+                <img class ="header-logo"src="./Assets/header-logo.svg" alt="">
+            </a> 
+            <a class ="nav-item" href="#start">Inicio</a>
+            <a class ="nav-item" href="#projects">Proyectos</a>
+            <a class ="nav-item" href="#contact">Contacto</a>
         </nav>
-        <button class="header-button" href="">Descarga mi C.V.</button>
+        <a class="header-button" href="https://drive.google.com/file/d/13OmMTVMqnYIAFFjV1x8UfkD3aWVyfU8h/view?usp=sharing" target="_blank" class="boton-pdf">Descarga mi C.V.</a>
     </header>
 
-<div class="hero">
+<div id="start" class="hero">
     <div class="hero-content">
         <div class="hero-text">
             <h1>¡Hola! <br>
                 Soy <span class=".hero-text--especial">Miguel Ruz</span></h1>
             <p>Conoce mi trayectoria profesional.</p>
         </div>
-        <button class="hero-button" href="">Acerca de mi</button>
+        <a class="hero-button" href="https://www.linkedin.com/in/miguel-angel-ruz-torres-1367a1219/">Acerca de mi</a>
     </div>
     <img class="hero-image" src="./Assets/hero-image.png" alt="">
 </div>
-<div class="projects-section">
+<div id="projects" class="projects-section">
     <p class="projects-p">PROYECTOS</p>
     <h2>"Conectando al mundo, un clic a la vez."</h2>
     <article class="projects-p2">A lo largo de mi carrera he colaborado con personas muy talentosas, con el fin de conectar al mundo a travez de la tecnología, conoce un par de esos proyectos</article>
@@ -102,7 +104,7 @@
         </div>
     </div>
 </div>
-<div class="contact-section">
+<div id="contact" class="contact-section">
     <div class="section-title">
         <p class="projects-p">CONTACTO</p>
         <h2 class="title-element">Si tienes dudas, hablemos</h2>
@@ -126,12 +128,20 @@
     </div>
 </div>
 <footer>
-    <img src="Assets/header-logo.svg" alt="es el logo">
+    <a href="">
+        <img src="Assets/header-logo.svg" alt="es el logo">
+    </a>
     <article class="article-footer">Todos los derechos reservados</article>
     <div class="social-contaniner">
-        <img src="Assets/Instagram.png" alt="es un icono de red social">
-        <img src="Assets/LinkedIn.png" alt="es un icono de red social">
-        <img src="Assets/Behance.png" alt="es un icono de red social">
+        <a href="https://www.instagram.com/miguel_rt11/">
+            <img src="Assets/Instagram.png" alt="es un icono de red social">
+        </a> 
+        <a href="https://www.linkedin.com/in/miguel-angel-ruz-torres-1367a1219/">
+            <img src="Assets/LinkedIn.png" alt="es un icono de red social">
+        </a> 
+        <a href="https://www.behance.net/miguel_ruz">
+            <img src="Assets/Behance.png" alt="es un icono de red social">
+        </a> 
     </div>
 </footer>
 </body>

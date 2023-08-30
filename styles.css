@@ -90,6 +90,7 @@ nav {
 .header-button {
     cursor: pointer;
     background-color: transparent;
+    text-decoration: none;
     font-size: var(--boton);
     padding: 16px 32px;
     border: 1.5px solid var(--blanco, #ffffff);
@@ -142,6 +143,7 @@ span, .hero-text--especial {
 
 .hero-button {
     cursor: pointer;
+    text-decoration: none;
     font-size: var(--boton);
     font-weight: 500;
     color: var(--blanco);
