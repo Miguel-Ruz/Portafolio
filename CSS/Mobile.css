@@ -43,17 +43,7 @@ nav {
 }
 
 .testimonial-section {
-    width: 100vw;
-    height: fit-content;
-    padding: 64px 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(./Assets/TESTIMONIAL-BG.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    display: none;
 }
 
 .testimonial-cards {
@@ -75,4 +65,16 @@ nav {
 
 .form-container {
     width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 32px;
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
 }

@@ -248,6 +248,7 @@ span, .hero-text--especial {
     padding: 5px 16px;
     justify-content: center;
     align-items: center;
+    width: fit-content;
     height: fit-content;
     border-radius: 50px;
     background: rgba(255, 255, 255, 0.30);
@@ -305,6 +306,7 @@ span, .hero-text--especial {
 
 .testimonial-card {
     width: 50%;
+    min-width: 330px;
     display: flex;
     flex-direction: column;
     padding: 24px;
@@ -319,8 +321,15 @@ span, .hero-text--especial {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: fit-content;
 }
+
+.purple-icon {
+    width: 48px;
+    height: 48px;
+}
+
 .testimonial-autor {
     margin-top: 24px;
     margin-bottom: 0px;
